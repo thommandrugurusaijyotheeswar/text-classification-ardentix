@@ -1,11 +1,41 @@
 label,text
-ham,Hey are we meeting today
-spam,WIN a brand new iPhone now
-ham,Please call me when you are free
-spam,Congratulations you have won a lottery
-ham,Let us complete the project today
+ham,Hey how are you
+ham,Are we meeting tomorrow
+ham,Please call me later
+ham,Let us work on the assignment
+ham,Do not forget the meeting
+ham,I will reach home by evening
+ham,Are you coming to college today
+ham,Please send the notes
+ham,Let us complete the project
+ham,Thank you for your help
+ham,Can we talk now
+ham,Happy birthday have a great day
+ham,I will see you tomorrow
+ham,Please submit the report
+ham,Let us discuss this later
+ham,Are you free this evening
+ham,Meeting has been postponed
+ham,Call me when you arrive
+ham,I have sent the documents
+ham,See you soon
+spam,Win a brand new iPhone now
 spam,Free entry in a weekly competition
-ham,Are you coming to college tomorrow
+spam,Congratulations you have won a lottery
 spam,Claim your free prize now
-ham,Do not forget to submit the assignment
-spam,Limited offer click the link now
+spam,Limited time offer click now
+spam,You have won cash prize
+spam,Exclusive deal just for you
+spam,Click here to claim reward
+spam,Free recharge available
+spam,Special discount offer today
+spam,Act now offer expires soon
+spam,Winner selected claim prize
+spam,Get free coupons now
+spam,You are selected for reward
+spam,Instant cash prize waiting
+spam,Click link to win now
+spam,Final chance to win prize
+spam,Free vouchers available
+spam,Win big rewards today
+spam,Limited deal grab now
