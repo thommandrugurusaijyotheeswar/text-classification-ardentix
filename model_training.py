@@ -8,6 +8,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+import pickle
+import os
 
 nltk.download('stopwords')
 from nltk.corpus import stopwords
@@ -40,6 +42,7 @@ models = {
     "Logistic Regression": LogisticRegression(max_iter=1000)
 }
 
+
 results = {}
 
 for name, model in models.items():
@@ -65,3 +68,20 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 plt.savefig("outputs/model_comparison.png")
 plt.show()
+
+
+
+
+# Create directory if needed
+os.makedirs("saved_models", exist_ok=True)
+
+# Save Naive Bayes model
+with open("saved_models/model.pkl", "wb") as f:
+    pickle.dump(models["Naive Bayes"], f)
+
+# Save TF-IDF vectorizer
+with open("saved_models/vectorizer.pkl", "wb") as f:
+    pickle.dump(tfidf, f)
+
+print("✅ Naive Bayes model and vectorizer saved successfully")
+
